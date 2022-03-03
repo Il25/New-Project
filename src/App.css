@@ -1,0 +1,12 @@
+body {
+    background-color: #9266ff;
+}
+  
+.App {
+    background-color: #3f3160;
+    height: 600px;
+    width: 400px;
+    margin: 40px auto;
+    overflow-y: auto;
+}
+  
