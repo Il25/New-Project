@@ -12,7 +12,7 @@ const ListItems = () => {
             {toDoStore.todo.map(item => 
                 <ListItemWrapper key={item.id}>  
                     <Wrapper>
-                        <ListItemTextArea title={localization.E} type="text">
+                        <ListItemTextArea title={localization.EDIT_TODO} type="text">
                             {item.text}
                         </ListItemTextArea>
                         <ListItemSpan 
