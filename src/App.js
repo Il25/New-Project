@@ -1,14 +1,15 @@
 import './App.css';
 import React from 'react';
-import NoteList from './Components/NoteList/NoteList';
+import ToDoList from './Components/ToDoList/ToDoList';
+import { useObserver } from 'mobx-react';
 
 const App = () => {
 
-  return ( 
+  return useObserver(() => ( 
     <div className='App'>
-      <NoteList/>
+      <ToDoList/>
     </div>
-  );
+  ));
 };
 
 export default App;

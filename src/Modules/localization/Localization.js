@@ -1,6 +1,7 @@
 export const localization = {
-    NOTE_LIST: 'Notes list:',
-    ADD_A_NOTE: 'Add a note',
-    ADD: 'Add',
-    DELETE: 'Delete'
+    TODO_LIST: "ToDo list:",
+    ADD_A_NEW_TODO: "Add a new ToDo",
+    ADD: "Add",
+    DELETE: "Delete",
+    EDIT_TODO: "Edit ToDo",
 };

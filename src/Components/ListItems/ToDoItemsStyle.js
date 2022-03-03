@@ -1,36 +1,41 @@
 import styled from 'styled-components';
 
-export const ListItemWrapper = styled.div `&& {
+export const ListItemWrapper = styled.div`
     color: #FFFFFF;
     width: 350px;
     background-color: #bf07ac;
     height: 70px;
     margin: 20px auto;
     border-radius: 5px;
-}`
+`
 
-export const Wrapper = styled.p `&& {
+export const Wrapper = styled.div`
     padding: 10px;
     position: relative;
-}`
+`
 
-export const ListItemTextArea = styled.textarea ` && {     
-    // background-color: transparent;
+export const ListItemTextArea = styled.textarea`     
+    background-color: transparent;
     border: none;
     color: #FFFFFF;
     cursor: pointer;
-    padding: 5px;
+    padding: 10px;
     outline: none;
     width: 170px;
-    // overflow: auto;
     resize: none;
-    background-color: black;
-}`
+   
+`
 
-export const ListItemSpan = styled.span `&& {
+export const ListItemSpan = styled.span`
     position: absolute;
-    right: 10px;
+    right: 15px;
     font-size: 12px;
     padding: 5px;
     cursor: pointer;
-}`
+    margin-top: 10px;
+    transition: 0.3s all;
+
+    &:hover {
+        color: black;
+    }
+`
